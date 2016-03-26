@@ -20,53 +20,28 @@
 
     <Button
         android:id="@+id/spotify_streamer_button"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/button_margin"
-        android:background="@color/button_color"
-        android:text="@string/spotify_streamer"
-        android:textColor="@color/text_color" />
+        style="@style/ButtonStyle"
+        android:text="@string/spotify_streamer" />
 
     <Button
         android:id="@+id/scores_app_button"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/button_margin"
-        android:background="@color/button_color"
-        android:text="@string/scores_app"
-        android:textColor="@color/text_color" />
+        style="@style/ButtonStyle"
+        android:text="@string/scores_app" />
 
     <Button
         android:id="@+id/library_app_button"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/button_margin"
-        android:background="@color/button_color"
-        android:text="@string/library_app"
-        android:textColor="@color/text_color" />
+        style="@style/ButtonStyle"
+        android:text="@string/library_app" />
 
     <Button
         android:id="@+id/build_bigger_button"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/button_margin"
-        android:background="@color/button_color"
-        android:text="@string/build_it_bigger"
-        android:textColor="@color/text_color" />
+        style="@style/ButtonStyle"
+        android:text="@string/build_it_bigger" />
 
     <Button
         android:id="@+id/xyz_reader_button"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/button_margin"
-        android:background="@color/button_color"
-        android:text="@string/xyz_reader"
-        android:textColor="@color/text_color" />
+        style="@style/ButtonStyle"
+        android:text="@string/xyz_reader" />
 
     <Button
         android:id="@+id/capstone_button"
